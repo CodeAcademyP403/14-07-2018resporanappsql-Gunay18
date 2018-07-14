@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Restaurant2
+{
+    public class Product
+    {
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public byte Count { get; set; }
+        public int CategoryId { get; set; }
+        public int productID { get; set; }
+    }
+}
